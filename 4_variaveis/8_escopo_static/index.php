@@ -1,9 +1,9 @@
 <?php 
 
-    function teste(){
+    function teste(){ // variavel local
 
-        $a = 0;
-        $a++;
+        $a = 0; // o valor sempre será 0
+        $a++;   // incrementa o valor de a mas como não é static sempre será 1
 
         echo $a . "<br>";
 
