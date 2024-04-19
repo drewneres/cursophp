@@ -1,5 +1,10 @@
 <?php 
 
-    echo 3 % 3 . "<br>"; // % mostra o resto da divisão
+    $a = 24;
+    $b = 3;
+    $c = 5;
 
-    echo 7 % 5 . "<br>"; 
+
+    echo $a % $b . "<br>"; // % mostra o resto da divisão
+
+    echo $a % $c . "<br>"; 
