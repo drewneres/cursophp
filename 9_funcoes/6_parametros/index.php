@@ -2,7 +2,13 @@
 
     function velocidadeMaxima($vel){
 
+        if(is_int($vel)){
+
         echo "O carro atinge a velocidade máxima de $vel km/h " ."<br>";
+        }else {
+            echo "Por favor, insira um número inteiro" . "<br>";
+        }
+
 
     }
 
@@ -19,4 +25,14 @@
     velocidadeMaxima($velocidade);
 
     //PHP ignora o parametro desnecessário
-    velocidadeMaxima(250, "teste");
+    velocidadeMaxima("teste");
+
+    function descAnimal($nome,$raca){
+
+        echo "O $nome é da raça $raca" . "<br>";
+
+    }
+
+    descAnimal("Willie", "Labrador");
+    descAnimal("Bob", "Fila");
+    descAnimal("Gato", "Preto");
