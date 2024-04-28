@@ -1,11 +1,11 @@
 <?php 
 
-    function pessoa($nome, $idade){
+    function pessoa($nome, $idade, $genero){
 
-        echo "Olá eu sou o $nome e tenho $idade anos" . "<br>";
+        echo "Olá eu sou $genero $nome e tenho $idade anos" . "<br>";
         
     }
 
-    pessoa("Hendrew", "22");
-    pessoa("Cleber", "15");
-    pessoa("Jacob", "23");
+    pessoa("Hendrew", "22", "o");
+    pessoa("Cleber", "15", "o");
+    pessoa("Janaina", "23", "a");
