@@ -16,3 +16,13 @@
     $y = soma($x, 19);
 
     echo $y . "<br>";
+
+    function testeRetorno(){
+
+        return "teste";
+
+    }
+
+    $z = testeRetorno();
+
+    echo $z . "<br>";
