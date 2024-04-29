@@ -1,10 +1,10 @@
 <?php 
 
 
-    function recebeNum($a){
+    function recebeNumAoQuad($a){
 
-        return $a;
+        return $a ** 2;
 
     }
 
-    echo recebeNum(1);
+    echo recebeNumAoQuad(3) . "<br>";
