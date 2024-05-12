@@ -18,3 +18,9 @@
 
     print_r($fraseBArray);
     echo "<br>";
+
+    for($i = 0; $i < count($fraseBArray); $i++){
+
+        echo "$fraseBArray[$i] <br>";
+
+    }
