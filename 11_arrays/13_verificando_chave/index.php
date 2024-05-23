@@ -13,13 +13,19 @@
     }
 
     if (array_key_exists('profissão', $arr)) {
-        echo "A chave existe";
+        echo "A chave existe" . "<br>";;
     } else {
-        echo "A chave não existe ";
+        echo "A chave não existe ". "<br>";;
     }
 
     if(isset($arr['nome'])) {
-        echo "A chave existe";
+        echo "A chave existe" . "<br>";
     } else {
-        echo "A chave não existe";
+        echo "A chave não existe". "<br>";
+    }
+
+    if(isset($arr['cleber'])) {
+        echo "A chave existe" . "<br>";
+    } else {
+        echo "A chave não existe". "<br>";
     }
