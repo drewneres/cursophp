@@ -29,3 +29,10 @@
     } else {
         echo "A chave não existe". "<br>";
     }
+
+
+    if(isset($x)) {
+        echo "A VAR existe" . "<br>";
+    } else {
+        echo "A VAR não existe". "<br>";
+    }
