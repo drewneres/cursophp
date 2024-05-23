@@ -17,3 +17,9 @@
     } else {
         echo "A chave não existe ";
     }
+
+    if(isset($arr['nome'])) {
+        echo "A chave existe";
+    } else {
+        echo "A chave não existe";
+    }
