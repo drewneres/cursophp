@@ -6,7 +6,7 @@ $removidos = array_splice($arr, 1, 2);
 
 print_r($arr);
 
-echo '<br>';
+echo "<br>";
 
 print_r($removidos);
-echo '<br>';
+echo "<br>";
