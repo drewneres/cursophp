@@ -24,3 +24,15 @@
 
     print_r($removidos2);
     echo '<br>';
+
+
+    $arr3 = [1, 2, 3, 4, 5, 6];
+
+    $removidos3 = array_splice($arr3, 1, -1); // remove do indice 1 até o penultimo
+
+    print_r($arr3);
+
+    echo '<br>';
+
+    print_r($removidos3);
+    echo '<br>';
